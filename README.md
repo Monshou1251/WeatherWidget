@@ -2,7 +2,7 @@
 
 WeatherWidget is a simple web application that allows users to view weather information for different cities.
 
-![WeatherWidget Screenshot](/path/to/screenshot.png)
+![WeatherWidget Screenshot]("E:\Dev\WeatherApp\list.png")
 
 ## Features
 
@@ -13,9 +13,22 @@ WeatherWidget is a simple web application that allows users to view weather info
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/weather-widget.git`
-2. Navigate to the project directory: `cd weather-widget`
-3. Install dependencies: `npm install`
+Follow these steps to set up the WeatherWidget app on your local machine:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/weather-widget.git
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd weather-widget
+
+3. **Install the required dependencies using npm:**
+
+   ```bash
+   npm install
 
 ## Usage
 
@@ -27,10 +40,11 @@ WeatherWidget is a simple web application that allows users to view weather info
 
 ## Built With
 
-- Vue.js - JavaScript framework
-- Vuex - State management
-- Vue-Router - Routing
-- OpenWeatherMap API - Weather data
+- [Vue.js](https://vuejs.org/) -  A progressive JavaScript framework for building user interfaces.
+- [Vuex](https://vuex.vuejs.org/) - A state management pattern and library for Vue.js applications.
+- [Vue-Router](https://router.vuejs.org/) - The official router for Vue.js applications.
+- [vuedraggable](https://github.com/SortableJS/Vue.Draggable) - A Vue.js directive for drag-and-drop functionality.
+- [@jamescoyle/vue-icon](https://github.com/jamescoyle/vue-icon): A Vue.js component for rendering SVG icons from various icon libraries.
 
 ## License
 
@@ -43,4 +57,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or suggestions, feel free to contact me at your.email@example.com.
+For any questions or suggestions, feel free to contact me at grigory.urchenko@gmail.com.
