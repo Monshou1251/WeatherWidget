@@ -23,7 +23,7 @@ Follow these steps to set up the WeatherWidget app on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/weather-widget.git
+   git clone https://github.com/Monshou1251/weather-widget.git
 
 2. **Navigate to the project directory:**
 
