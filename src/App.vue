@@ -1,24 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import { onMounted, onBeforeUnmount  } from 'vue';
+import { useStore } from 'vuex';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+const store = useStore();
+
+onMounted(() => {
+  const storedData = localStorage.getItem('weatherAppData');
+
+  if (storedData) {
+    store.commit('SET_CITY_LIST', JSON.parse(storedData));
   }
-}
+});
+
+onBeforeUnmount(() => {
+  localStorage.setItem('weatherAppData', JSON.stringify(store.getters.getCityList));
+});
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
