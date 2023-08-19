@@ -22,12 +22,12 @@ Follow these steps to set up the WeatherWidget app on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Monshou1251/weather-widget.git
+   git clone https://github.com/Monshou1251/weatherwidget.git
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd weather-widget
+   cd weatherwidget
 
 3. **Install the required dependencies using npm:**
 
