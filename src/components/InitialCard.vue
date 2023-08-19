@@ -54,7 +54,6 @@ if (userLocation.value) {
     const newLocation = {
     id: Date.now(),
     name: userLocation.value,
-    coords: {}, // You can add coordinates if needed
     };
     store.commit('ADD_CITY', newLocation);
     localStorage.setItem('weatherAppData', JSON.stringify([newLocation]));
