@@ -1,39 +1,46 @@
-WeatherWidget App
-WeatherWidget is a simple and intuitive weather forecast application built with Vue.js. It allows users to easily check the weather conditions and forecast for different cities around the world. The app provides a user-friendly interface with visually appealing weather icons, temperature information, wind direction, and other essential weather data.
+# WeatherWidget App
 
-Features
-Real-time weather information for various cities.
-Display of temperature, wind speed, and wind direction.
-Visually appealing weather icons to represent different weather conditions.
-Easy-to-use interface with intuitive controls.
-Add, remove, and reorder cities on the weather card list.
-User location detection to quickly add the current location.
-Responsive design for seamless usage on different devices.
-Getting Started
-To get started with the WeatherWidget app, follow these steps:
+WeatherWidget is a simple web application that allows users to view weather information for different cities.
 
-Clone the repository to your local machine.
-Install the project dependencies using npm install.
-Run the app locally using npm run serve.
-Open your web browser and navigate to the provided URL.
-Usage
-Launch the app to view the initial weather cards.
-Click the settings icon to manage the city list and customize preferences.
-Add new cities by typing the city name and clicking the "+" icon.
-Remove cities by clicking the trash icon.
-Reorder cities using the drag handle icon.
-Hover over weather icons to view tooltips with additional information.
-Technologies Used
-Vue.js for building the user interface.
-Vuex for state management.
-SVG icons for visual elements.
-Geolocation API for detecting the user's current location.
-OpenWeatherMap API for weather data.
-Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to create a pull request or open an issue on GitHub.
+![WeatherWidget Screenshot](/path/to/screenshot.png)
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Features
 
-Contact
-For inquiries and support, contact your-email@example.com.
+- Display current weather information for specified cities.
+- Add, remove, and reorder cities in the list.
+- Drag and drop to reorder cities.
+- Click on a city to view detailed weather information.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/your-username/weather-widget.git`
+2. Navigate to the project directory: `cd weather-widget`
+3. Install dependencies: `npm install`
+
+## Usage
+
+1. Run the development server: `npm run serve`
+2. Open your browser and go to [http://localhost:8080](http://localhost:8080)
+3. Add cities using the "Add City" button.
+4. Click on a city to view weather details.
+5. Drag and drop cities to reorder them.
+
+## Built With
+
+- Vue.js - JavaScript framework
+- Vuex - State management
+- Vue-Router - Routing
+- OpenWeatherMap API - Weather data
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Weather data provided by OpenWeatherMap API.
+- Icons from [Material Design Icons](https://materialdesignicons.com/).
+
+## Contact
+
+For any questions or suggestions, feel free to contact me at your.email@example.com.
