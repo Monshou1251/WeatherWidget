@@ -4,6 +4,8 @@ WeatherWidget is a simple web application that allows users to view weather info
 
 ![Imgur](https://i.imgur.com/uiOFhfC.png)
 ![1212](https://i.imgur.com/y6hF3Yb.png)
+<img src="https://i.imgur.com/your-image-url.png" alt="WeatherWidget Preview" width="300">
+
 
 
 ## Features
