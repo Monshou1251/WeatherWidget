@@ -4,12 +4,14 @@ WeatherWidget is a simple web application that allows users to view weather info
 
 ![WeatherWidget Screenshot]("E:\Dev\WeatherApp\list.png")
 
+
 ## Features
 
 - Display current weather information for specified cities.
 - Add, remove, and reorder cities in the list.
 - Drag and drop to reorder cities.
 - Click on a city to view detailed weather information.
+
 
 ## Installation
 
@@ -30,13 +32,16 @@ Follow these steps to set up the WeatherWidget app on your local machine:
    ```bash
    npm install
 
+
 ## Usage
 
 1. Run the development server: `npm run serve`
 2. Open your browser and go to [http://localhost:8080](http://localhost:8080)
 3. Add cities using the "Add City" button.
-4. Click on a city to view weather details.
-5. Drag and drop cities to reorder them.
+4. Click on a gear to view settings window.
+5. Add new cities if needed.
+6. Drag and drop cities to reorder them.
+
 
 ## Built With
 
@@ -46,14 +51,17 @@ Follow these steps to set up the WeatherWidget app on your local machine:
 - [vuedraggable](https://github.com/SortableJS/Vue.Draggable) - A Vue.js directive for drag-and-drop functionality.
 - [@jamescoyle/vue-icon](https://github.com/jamescoyle/vue-icon): A Vue.js component for rendering SVG icons from various icon libraries.
 
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
 ## Acknowledgements
 
-- Weather data provided by OpenWeatherMap API.
+- Weather data provided by [OpenWeatherMap API](https://openweathermap.org/)
 - Icons from [Material Design Icons](https://materialdesignicons.com/).
+
 
 ## Contact
 
