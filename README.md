@@ -2,7 +2,7 @@
 
 WeatherWidget is a simple web application that allows users to view weather information for different cities.
 
-![WeatherWidget Screenshot](https://imgur.com/uiOFhfC)
+![WeatherWidget Screenshot](https://imgur.com/a/pHG3BWG)
 
 
 ## Features
